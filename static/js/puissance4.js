@@ -76,13 +76,13 @@ function moveToken(column, row, end)
             {
                 console.log(`Super, j'ai gagné !`)
 
-                $info.text(`Bravo ${me}, tu a gagné !`);
+                $info.text(`Bravo ${me}, tu as gagné !`);
             }
             else
             {
                 console.log(`Oh non ! J'ai perdu...`);
 
-                $info.text(`Désolé ${me}, tu a perdu...`);
+                $info.text(`Désolé ${me}, tu as perdu...`);
             }
 
             $firstRow.off('click');
