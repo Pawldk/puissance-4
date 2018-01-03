@@ -1,0 +1,21 @@
+{
+  "name": "puissance4",
+  "version": "1.0.0",
+  "description": "Puissance 4 en réseau",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Pierre LAGODIUK",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "socket.io": "^2.0.4",
+    "sqlite": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.7"
+  }
+}

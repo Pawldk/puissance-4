@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/static/css/puissance4.css" type="text/css" rel="stylesheet">
+    <title><%= title %></title>
+</head>
+<body>
+    <input id="my-color" type="hidden" value="<%= myColor %>">
+    <div class="player">
+        <div class="yellow"><%= yellowPseudo %></div>
+        <div class="token yellow"><strong>MB</strong></div>
+    </div>
+    <div class="game">
+        <div class="message">
+            <div class="room"><%= room %></div>
+            <div class="info"></div>
+        </div>                   
+        <div class="board">
+            <div class="row">
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+            </div>
+            <div class="row">
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+            </div>
+            <div class="row">
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+            </div>
+            <div class="row">
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+            </div>
+            <div class="row">
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+            </div>
+            <div class="row">
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+                <div class="cell"><div class="token"><strong>MB</strong></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="player">
+        <div class="red"><%= redPseudo %></div>
+        <div class="token red"><strong>MB</strong></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="/static/js/player.js"></script>
+    <script src="/static/js/puissance4.js"></script>
+</body>
+</html>
