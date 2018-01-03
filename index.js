@@ -6,6 +6,8 @@ const app = express();
 const server = http.Server(app);
 const io = socketIO(server);
 
+const port = process.env.PORT || 3000;
+
 const rooms =
 [{
     yellowPseudo: '',
@@ -106,7 +108,7 @@ app.post
 
 server.listen
 (
-    80,
+    port,
     ()=>
     {
         console.log('Je suis Puissance 4, le maître du jeu.');
